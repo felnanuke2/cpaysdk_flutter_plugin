@@ -1,7 +1,6 @@
 name: cpaysdk_flutter_plugin
 description: Cpay SDK Flutter plugin.
 version: 0.0.1
-author:
 homepage:
 
 environment:
@@ -11,13 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  plugin:
-    platforms:
-      android:
-        package: com.centerm.cpaysdk_flutter_plugin
-        pluginClass: CpaysdkFlutterPlugin
-      ios:
-        pluginClass: CpaysdkFlutterPlugin  
 
 dev_dependencies:
   flutter_test:
