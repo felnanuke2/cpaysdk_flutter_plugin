@@ -1,4 +1,3 @@
-import 'dart:typed_data';
 
 import 'package:cpaysdk_flutter_plugin/cpaysdk_flutter_plugin.dart';
 import 'package:flutter/material.dart';

@@ -43,17 +43,17 @@ class App extends StatelessWidget {
                 );
               },
             ),
-            // new MaterialButton(
-            //     color: Colors.blue,
-            //     textColor: Colors.white,
-            //     onPressed: () {
-            //       Navigator.push<dynamic>(
-            //         context,
-            //         new MaterialPageRoute<dynamic>(
-            //             builder: (context) => new IcCardPage()),
-            //       );
-            //     },
-            //     child: Text('IC Device')),
+            new MaterialButton(
+                color: Colors.blue,
+                textColor: Colors.white,
+                onPressed: () {
+                  Navigator.push<dynamic>(
+                    context,
+                    new MaterialPageRoute<dynamic>(
+                        builder: (context) => new IcCardPage()),
+                  );
+                },
+                child: Text('IC Device')),
             // new MaterialButton(
             //     color: Colors.blue,
             //     textColor: Colors.white,
