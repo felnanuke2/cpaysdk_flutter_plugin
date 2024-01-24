@@ -11,6 +11,13 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  plugin:
+    platforms:
+      android:
+        package: com.centerm.cpaysdk_flutter_plugin
+        pluginClass: CpaysdkFlutterPlugin
+      ios:
+        pluginClass: CpaysdkFlutterPlugin  
 
 dev_dependencies:
   flutter_test:
