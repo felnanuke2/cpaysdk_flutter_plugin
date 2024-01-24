@@ -190,9 +190,9 @@ class CpaysdkFlutterPlugin {
   //   return SystemDevice(_channel);
   // }
 
-  // static IcDevice get icCard {
-  //   return IcDevice(_channel);
-  // }
+  static IcDevice get icCard {
+    return IcDevice(_channel);
+  }
 
   // static RfDevice get rfCard {
   //   return RfDevice(_channel);
