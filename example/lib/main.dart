@@ -1,4 +1,5 @@
 import 'package:cpaysdk_flutter_plugin_example/beep_page.dart';
+import 'package:cpaysdk_flutter_plugin_example/emv_page.dart';
 
 import 'package:cpaysdk_flutter_plugin_example/ic_page.dart';
 import 'package:cpaysdk_flutter_plugin_example/mag_page.dart';
@@ -54,6 +55,17 @@ class App extends StatelessWidget {
                   );
                 },
                 child: Text('IC Device')),
+            new MaterialButton(
+                color: Colors.blue,
+                textColor: Colors.white,
+                onPressed: () {
+                  Navigator.push<dynamic>(
+                    context,
+                    new MaterialPageRoute<dynamic>(
+                        builder: (context) => new EmvPage()),
+                  );
+                },
+                child: Text('Emv Device')),
             // new MaterialButton(
             //     color: Colors.blue,
             //     textColor: Colors.white,

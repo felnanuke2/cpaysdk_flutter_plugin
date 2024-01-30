@@ -1,15 +1,38 @@
-# cpaysdk_flutter_plugin
+# **Release Notes - Projeto de TI: API Backend e Cliente Mobile**
+*Versão 0.6.0*
+*Data de Lançamento: 25/01/2024*
 
-Cpay SDK Flutter plugin.
+Funcionalidades introduzidas na versão v0.6.0 do projeto Squadra.
 
-## Getting Started
+## **Admin Web**
+- Layout.
+   - Cores do projeto atualizadas.
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## **Client Web**
+- Layout.
+   - Cores do projeto atualizadas.
+- Publicidade ("banners")
+   - Tela de Listagem de publicidade
+   - Tela de adição de publicidades
+   - Integrações com API
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## **Cliente Mobile**
+- Layout.
+   - Cores do projeto atualizadas.
+   - Integração com dados do servidor dos banners
+   - Integração com dados do servidor dos vouchers
+   - Integração com dados do servidor dos pesquisa
+   - Integração com dados do servidor das categorias
 
+
+## **Próximos passos**
+- Aprovações.
+- Adição de imagens nos usuários e banners.
+
+## Known Issues (Erros conhecidos)
+- Os banners ainda não possuem imagens.
+- Os vouchers ainda não possuem imagens.
+- Os dependentes ainda não possuem imagem.
+
+Atenciosamente,
+Space Needle Tecnologia.
